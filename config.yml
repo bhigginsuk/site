@@ -42,8 +42,8 @@ params:
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
-    # ShowReadingTime: true
+    ShowShareButtons: false
+    ShowReadingTime: false
     # disableSpecial1stPost: true
     # displayFullLangName: true
     ShowPostNavLinks: true
@@ -73,10 +73,10 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/bhigginsuk/"
-        - name: RSS
-          url: "index.xml"
         - name: email
           url: "mailto:mail@brhiggins.com"
+        - name: RSS
+          url: "index.xml"
 
     # label:
     #     text: "Home"
