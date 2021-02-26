@@ -73,6 +73,8 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/bhigginsuk/"
+        - name: keybase
+          url: "https://keybase.io/brhiggins/"
         - name: email
           url: "mailto:mail@brhiggins.com"
         - name: RSS

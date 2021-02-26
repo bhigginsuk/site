@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/brhiggins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.brhiggins.com
+  * I am brhiggins (https://keybase.io/brhiggins) on keybase.
+  * I have a public key with fingerprint A4FD FA1A 60B5 1DC2 3B7C  5A5D 0808 2934 88E2 68C3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013c308669e46dbbeec2bdcf4c83daa4979fb0c0e019d5c5d8df1bab3c7f6527b90a",
+      "fingerprint": "a4fdfa1a60b51dc23b7c5a5d0808293488e268c3",
+      "host": "keybase.io",
+      "key_id": "0808293488e268c3",
+      "kid": "01013c308669e46dbbeec2bdcf4c83daa4979fb0c0e019d5c5d8df1bab3c7f6527b90a",
+      "uid": "395edb76a70ab0ea7f433a03d5b15d19",
+      "username": "brhiggins"
+    },
+    "service": {
+      "hostname": "www.brhiggins.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614375776,
+  "expire_in": 157680000,
+  "prev": "e49f80a951346c146c0c929f50b160f293e0831ca80b0a67fdb0ae6ed0e981ca",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUntQVFUcXsjA5THgsCKMMsldFIfHcu7e924MPrA0eRYUKa/7OHe5AnuXvcsS
+IJRh+BgbSRwG/kHXNyMxKYKAWflAK0yxRqwWxhgicnQUGV8RWndJ+6d/OzNnfnO+
+833f+c5vfg2BL2nmehU6c9HgS4uSvQZucZpCppivRjhZqERM1UgxnC2wRICKo6BY
+EhATAlCAYjwGaJJkIE4KHAchb+QEXsR5GhNYFmcoRuQADyBAGYHgCYEWRJRjOYyn
+RJIwUhwDWCQOESWrBdptdsnqUG1ZXBREFmVJwBGowBsxjuIJlhAADWgjg+E0DY0k
+zWOqsEhWPAo1HMcq0CDJKqYeCv6J91/+/5y7fNYOYwgocBTJUoDlAGQpEccwFmAC
+waGEgDIeogLtVrYUqmzOXiRZLJJVQWriEBV2Sjz0dNbzleeUiooKw780Ay+Xqg42
+u+yQeblEvS5yOGyKySN3VNpm+ZAreO5UwElWQe2mqnBCuyLJVsSEqkzeIXmsURLF
+MYqgKDIOge/ZJDsskDwMgiJpoC7PO9CpWsJ8nBFpwDIEiuEkj6ob8IyREQnAoSQQ
+1b5CQGMoz9KAAyxJiYJaIAkFABlahRHP58qsMmLC1ZysRfVUJIuVdZTbIVLjt90b
+m6PxmquJCI2cU/ST2U017F2nDcrtfzGBL3t7xk/jpw1+gXyqDXq6UI+HRp99UL7+
+8sqJ9Cvm1JR9E0MZp3SWH4Y7m9xbjwZsKsx4ZXfETl+y8Yb3V+yyqoe3h0ezT/cl
+WF1ZkXd8L+W8YWhbcdH46JesJR/HHekoip5KyY5MNId+0r+m5FBfgp+yZ2FScljs
+qHvTlsKosbr04fhWxL/1eGy28ORCzPKBpi3Hny1RDry9NGRGjx/+dVLWT1tCSMf8
+R53XnUlnx7ZFRg1sfpLpaneN2LdufiZUbai56b3gW3y4H4x1TTwdSotadddYl/il
+ayY8494fPpOD8yaiDDGmQK4z4OKJ6vyAjOYVlbx/d0vEUndNTkhi22PtOueZ8uAO
+9saEq3Ft2m/3jP7xG7sDz6R+UHt9ms5eM7LjZNXGzDsr9ZbptI80j7cnpLZhirBn
+qkl7te/Irm/yelaPr311sS7savv6lJH0ll2DEec3UI2D87uS3upprA023K9bnbP/
+wXdlVq/748csBJl/tN5XE2Dqj4Tu+rzi3LDk6uayz5oP/Jx3LbZl6NB40M79i177
+PnOAUJLDfkyc/POu++b75gDXFVvXNebysqbDdnf4jm1iY7Y5v2tKNxP1V4O5i+5I
+OlV64t1zB/3CesnP63199Pp3fvdZ7Ce9qb3Qm9zrfrjgfMyxwMr2r3XFt2r5oLpz
+o18U6uSgk7rdfa/vC+/OAst7MlpLb0d/eDrRHM8eXFXxNw==
+=GGQr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brhiggins
+
+==================================================================
