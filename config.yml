@@ -16,14 +16,14 @@ languages:
         weight: 1
         menu:
             main:
+                - name: Tags
+                  url: tags/
+                  weight: 1
                 - name: Archive
-                  url: archives
-                  weight: 5
+                  url: archives/
+                  weight: 2
                     #- name: Search
                     #  url: search/
-                    #  weight: 10
-                    #- name: Tags
-                    #  url: tags/
                     #  weight: 10
                     #- name: Categories
                     #  url: categories/
@@ -60,15 +60,13 @@ params:
         # imageWidth: 120
         # imageHeight: 120
         buttons:
+            - name: Tags
+              url: tags
             - name: Archives
               url: archives
-                #- name: Tags
-                #  url: tags
 
     homeInfoParams:
         Title: "Benjamin Higgins"
-        Content: >
-            mail@brhiggins.com
 
     socialIcons:
         - name: github
