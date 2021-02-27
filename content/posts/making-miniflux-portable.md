@@ -3,9 +3,8 @@ title: "Making Miniflux portable"
 date: 2021-02-26T23:22:24Z
 tags:
     - Applications
+summary: Configuring the Miniflux RSS reader for data portability
 ---
-
-# Making Miniflux portable
 
 After hunting for a while for a good offline RSS reader I decided on
 [Miniflux](https://miniflux.app/). It is designed to be hosted on a home server or
