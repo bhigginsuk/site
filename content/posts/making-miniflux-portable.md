@@ -134,7 +134,7 @@ $ miniflux
 
 Open up `127.0.0.1:8080` in your browser. If you see Miniflux prompting you to log in,
 all is working. You should be able to log in with your admin credentials.
-![Miniflux login screen](/img/miniflux-login-screen.png)
+![Miniflux login screen](/img/making-miniflux-portable/miniflux-login-screen.png)
 
 ### 4: Create an archive
 We're going to achieve portability by archiving the database directory when not in use.
@@ -249,6 +249,8 @@ $ ./miniflux.sh
 At this point your new browser instance should launch. You can log in and interact with
 Miniflux.
 
+![Miniflux working](/img/making-miniflux-portable/miniflux-working.png)
+
 When you're done, close your browser instance. You should see Miniflux and Postgres
 shutdown, and your archive updated.
 
@@ -272,7 +274,7 @@ shutdown, and your archive updated.
 Because Miniflux is never open in the background, it can't refresh feeds automatically.
 You need to manually refresh the feeds each time you launch. There's probably a way
 around this, but I haven't found it enough of a problem to try figure it out yet.
-![Manually refresh feeds](/img/miniflux-refresh-feeds.png)
+![Manually refresh feeds](/img/making-miniflux-portable/miniflux-refresh-feeds.png)
 
 - **Simple script has no recovery in the case of errors**  
 This is a simple shell script. If something goes wrong during execution, it has no
