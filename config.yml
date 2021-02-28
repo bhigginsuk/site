@@ -37,7 +37,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "I don't know what this field is for" # What is this for?
+    description: "Benjamin Higgins' blog about various programming and software topics." # Search engine description field
     author: Benjamin Higgins # Where is this shown?
 
     defaultTheme: auto
