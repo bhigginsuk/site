@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T23:22:24Z
-summary: Configuring the Miniflux RSS reader for data portability
+summary: How to configure Miniflux to be portable
 tags:
     - application
 title: "Making Miniflux portable"
