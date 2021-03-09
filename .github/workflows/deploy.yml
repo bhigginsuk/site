@@ -1,0 +1,52 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.81.0"
+
+      - name: Build
+        run: hugo
+
+      - name: Upload to pinata
+        uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+        id: upload
+        with:
+          pin-name: site
+          path: ./public
+          pinata-api-key: ${{ secrets.PINATA_KEY }}
+          pinata-secret-api-key: ${{ secrets.PINATA_SECRET }}
+          remove-old: true
+
+      - name: Update DNS
+        uses: bhigginsuk/upsert-dns-record@v2.2
+        continue-on-error: true
+        with:
+          type: TXT
+          name: "_dnslink.www"
+          content: "dnslink=/ipfs/${{ steps.upload.outputs.hash }}"
+          ttl: 1
+          token: ${{ secrets.CLOUDFLARE_TOKEN }}
+          zone: ${{ secrets.CLOUDFLARE_ZONE }}
+
+      - name: Tag commit
+        uses: richardsimko/update-tag@v1
+        with:
+          tag_name: ${{ steps.upload.outputs.hash }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
