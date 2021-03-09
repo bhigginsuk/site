@@ -38,13 +38,22 @@ jobs:
         continue-on-error: true
         with:
           type: TXT
-          name: "_dnslink.www"
+          name: "_dnslink.www.brhiggins.com"
           content: "dnslink=/ipfs/${{ steps.upload.outputs.hash }}"
           ttl: 1
           token: ${{ secrets.CLOUDFLARE_TOKEN }}
           zone: ${{ secrets.CLOUDFLARE_ZONE }}
 
+      - name: Check tag
+        id: checktag
+        uses: mukunku/tag-exists-action@v1.0.0
+        with:
+          tag: ${{ steps.upload.outputs.hash }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Tag commit
+        if: ${{ steps.checktag.outputs.exists == false }}
         uses: richardsimko/update-tag@v1
         with:
           tag_name: ${{ steps.upload.outputs.hash }}
