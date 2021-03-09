@@ -1,7 +1,8 @@
-baseurl: "/"
+baseurl: "https://www.brhiggins.com/"
 languageCode: "en-us"
 title: "Benjamin Higgins"
 theme: "xmin"
+relativeURLS: true
 
 menu:
   main:
